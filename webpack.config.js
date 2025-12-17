@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
-  devTool: "eval-source-map",
+  devtool: "eval-source-map",
   devServer: {
     watchFiles: ["./src/main.html"],
   },
