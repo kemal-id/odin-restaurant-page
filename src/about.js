@@ -1,3 +1,6 @@
+import selectedNav from "./selected.js";
+
+
 const displayAbout = () => {
   const main = document.querySelector("main");
   if (main.classList.contains("about")) {
@@ -11,6 +14,7 @@ const displayAbout = () => {
   const p = document.createElement("p");
   p.innerHTML = "About will appear";
   main.appendChild(p);
+  selectedNav("about");
 };
 
 export default displayAbout;

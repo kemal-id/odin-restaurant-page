@@ -6,11 +6,11 @@ import style from "./main.css";
 // const main = document.querySelector("main");
 // console.log(main);
 
-const homeBtn = document.querySelector(".home-button");
-const menuBtn = document.querySelector(".menu-button");
-const aboutBtn = document.querySelector(".about-button");
+const homeBtn = document.getElementById("home");
+const menuBtn = document.getElementById("menu");
+const aboutBtn = document.getElementById("about");
 
 homeBtn.addEventListener("click", home);
 menuBtn.addEventListener("click", menu);
 aboutBtn.addEventListener("click", about)
-// home();
+home();

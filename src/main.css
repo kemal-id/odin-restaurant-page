@@ -35,7 +35,7 @@ main {
 }
 
 #home-bg {
-  height: calc(100vh - var(--nav-height));
+  height: calc(100vh - var(--nav-height) - 0.5vh);
   z-index: -1;
   position: relative;
 }
