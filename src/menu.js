@@ -5,12 +5,12 @@ const displayMenu = () => {
   if (main.classList.contains("menu")) {
     return;
   }
-  main.innerHTML = "";
+  // main.innerHTML = "";
   main.className = "";
   main.classList.add("menu");
-  const p = document.createElement("p");
-  p.innerHTML = "Menu will appear";
-  main.appendChild(p);
+  // const p = document.createElement("p");
+  // p.innerHTML = "Menu will appear";
+  // main.appendChild(p);
   selectedNav("menu");
 };
 

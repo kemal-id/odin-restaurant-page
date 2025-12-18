@@ -13,4 +13,4 @@ const aboutBtn = document.getElementById("about");
 homeBtn.addEventListener("click", home);
 menuBtn.addEventListener("click", menu);
 aboutBtn.addEventListener("click", about)
-home();
+menu();
