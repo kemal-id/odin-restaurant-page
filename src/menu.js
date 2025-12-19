@@ -5,7 +5,7 @@ const menu = () => {
   if (main.classList.contains("menu")) {
     return;
   }
-  // main.innerHTML = "";
+  main.innerHTML = "";
   main.className = "";
   main.classList.add("menu");
   selectedNav("menu");
