@@ -93,7 +93,7 @@ li button:focus {
 }
 
 #home-bg {
-  height: calc(100vh - var(--nav-height) - 0.5vh);
+  height: calc(100vh - var(--nav-height));
   z-index: -1;
   position: relative;
 }

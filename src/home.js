@@ -11,8 +11,8 @@ const home = () => {
   main.innerHTML = "";
   main.className = "";
   main.classList.add("home");
-  displayHomeContent();
   selectNav("home");
+  displayHomeContent();
 };
 
 const displayHomeContent = () => {
