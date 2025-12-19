@@ -6,8 +6,7 @@ const menu = () => {
     return;
   }
   main.innerHTML = "";
-  main.className = "";
-  main.classList.add("menu");
+  main.className = "menu";
   selectedNav("menu");
   displayMenuContent();
 };

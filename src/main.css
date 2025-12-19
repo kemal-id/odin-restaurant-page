@@ -307,7 +307,7 @@ li button:focus {
 .contacts {
   display: grid;
   grid-template-columns: 28rem 28rem;
-  grid-template-rows: 3rem 8rem;
+  grid-template-rows: 3rem repeat(auto-fit, 8rem);
   place-content: center;
 }
 

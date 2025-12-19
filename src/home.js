@@ -9,8 +9,7 @@ const home = () => {
     return;
   }
   main.innerHTML = "";
-  main.className = "";
-  main.classList.add("home");
+  main.className = "home";
   selectNav("home");
   displayHomeContent();
 };
