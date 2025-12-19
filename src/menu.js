@@ -1,5 +1,7 @@
 import selectedNav from "./selected.js";
+import footer from "./footer.js";
 const main = document.querySelector("main");
+const body = document.querySelector("body");
 
 const menu = () => {
   if (main.classList.contains("menu")) {

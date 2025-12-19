@@ -1,6 +1,7 @@
 import natalie from "../assets/natali-n-gltUMFm_i4Q-unsplash.jpg";
 import coffee from "../assets/coffee-icon.svg";
 import selectNav from "./selected.js";
+import menu from "./menu.js";
 
 const main = document.querySelector("main");
 
@@ -12,6 +13,7 @@ const home = () => {
   main.className = "home";
   selectNav("home");
   displayHomeContent();
+
 };
 
 const displayHomeContent = () => {
@@ -87,6 +89,8 @@ const displayHomeContent = () => {
   main.appendChild(ImageContainer);
   main.appendChild(hero);
   main.appendChild(itemContainer);
+
+  menuBtn.addEventListener("click", menu);
 
   //UUGH, hardcoded html is much simpler.
 };
